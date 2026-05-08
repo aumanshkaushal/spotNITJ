@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="#111111"
+
+    android:padding="10dp"
+
+    android:clickable="false"
+    android:focusable="false">
+
+    <!-- TOP -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/seats"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="390 SEATS"
+
+            android:textStyle="bold"
+
+            android:textColor="#FFFFFF"
+
+            android:textSize="18sp"
+
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/refresh"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="↻"
+
+            android:textColor="#FFFFFF"
+
+            android:textSize="16sp"
+
+            android:layout_marginStart="6dp"
+
+            android:fontFamily="monospace"
+
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <!-- DOTS -->
+
+    <TextView
+        android:id="@+id/progressDots"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:text="○ ○ ○ ○ ○ ○ ○ ○"
+
+        android:textSize="9sp"
+
+        android:textColor="#00FF99"
+
+        android:fontFamily="monospace"/>
+
+    <!-- DETAILS -->
+
+    <TextView
+        android:id="@+id/details"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:text="114 IN 1&#10;144 IN 2&#10;90 IN 3&#10;42 IN GROUND"
+
+        android:textColor="#DDDDDD"
+
+        android:textSize="11sp"
+
+        android:lineSpacingExtra="1dp"
+
+        android:fontFamily="monospace"/>
+</LinearLayout>
